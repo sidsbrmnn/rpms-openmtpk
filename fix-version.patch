@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 25e88e2..472ffe5 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.18)
+ set (CMAKE_CXX_STANDARD 20)
+ set (CMAKE_CXX_FLAGS "-Wno-unused-result -Wparentheses -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC")
+ 
+-project(openMTPK VERSION 0.5 LANGUAGES CXX)
++project(openMTPK VERSION 0.9.4 LANGUAGES CXX)
+ 
+ set(DEFAULT_BUILD_TYPE "Release")
+ if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
